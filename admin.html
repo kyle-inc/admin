@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is description">
+
+    <meta name="keyword" content="tech, tech articles">
+    <!-- Here I can add my website is specialisded for what -->
+
+    <meta name="robots" content="index, follow">
+    <!-- Here I can add index/noindex and follow/nofollow for my website -->
+
+    <!-- Here is Icon of title -->
+    <link rel="icon" href="https://kyle-inc.github.io/resource/adminconsole/adminicon.png" type="image/x-icon">
+
+    <!-- Here I have to include my CSS file -->
+    <link rel="stylesheet" href="admin.css">
+
+    <!-- Poppins @ Google Fonts -->
+    <!-- font-family: 'Poppins', sans-serif; -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <!-- Fredoka @ Google Fonts -->
+    <!-- font-family: 'Fredoka', sans-serif; -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka&display=swap" rel="stylesheet">
+
+    <!-- Ununtu @ Google Fonts -->
+    <!-- font-family: 'Ubuntu', sans-serif; -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+
+    <title>KYLE Admin Console</title>
+
+    <script src="php.js"></script>
+
+</head>
+
+<body class="adminconsole-body">
+
+    <div class="adminconsole-logobar">
+        <a href="admin.html">
+            <!-- <center> -->
+            <!-- <img class="kyledevopslogo" id="kylelogoid" src="kyledevopslogoblack.png" alt="kylelogo">
+                <img class="kylelogo" id="kylelogoid" src="kylelogoblack.png" alt="kylelogo"> -->
+            <img class="adminconsole-logo" id="kylelogoid" src="https://kyle-inc.github.io/resource/adminconsole/adminconsolelogo.png" alt="kylelogo">
+            <!-- </center> -->
+        </a>
+    </div>
+
+    <p class="adminconsole-para1">
+        <img class="adminconsole-icon" id="kylelogoid" src="https://kyle-inc.github.io/resource/adminconsole/adminicon.png" alt="kylelogo">
+        Welcome to KYLE Admin Console....
+        <br>
+        Admin console for administering KYLE services.
+    </p>
+
+
+    <center>
+
+        <form>
+            <!-- action="action_page.html" -->
+
+            <h3 class="h3loginform">Login to KYLE Admin Console</h3>
+
+            <label for="username">Admin ID</label>
+            <input type="text" name="email" placeholder="Enter Admin ID" id="username" required>
+
+            <label for="password">Password</label>
+            <input type="password" name="password" placeholder="Enter Password" id="pswd" required>
+
+            <!-- <input class="loginbutton" type="submit" value="Login"> -->
+
+            <input class="loginbutton" type="button" value="Login" onclick="checkPswd();" />
+
+        </form>
+        
+    </center>
+
+    <footer style="margin-top: 45vh;">
+
+        <div class="content">
+
+            <div class="top">
+
+                <div class="logo-details">
+                    <img src="https://kyle-inc.github.io/resource/kyle/kylelogowhite.png" style="width: 8vw; min-width: 100px; padding: 5px 5px;" alt="">
+                </div>
+
+                <div class="media-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+
+            </div>
+
+            <div class="link-boxes">
+
+                <ul class="box">
+                    <li class="link_name">API</li>
+                    <li><a href="#">KYLE Search</a></li>
+                    <li><a href="#">TODO</a></li>
+                    <li><a href="#">Response</a></li>
+                    <li><a href="#">Notes</a></li>
+                </ul>
+
+                <ul class="box">
+                    <li class="link_name">Services</li>
+                    <li><a href="#">KYLE Search</a></li>
+                    <li><a href="#">TODO</a></li>
+                    <li><a href="#">Response</a></li>
+                    <li><a href="#">Notes</a></li>
+                </ul>
+
+                <ul class="box">
+                    <li class="link_name">Account</li>
+                    <li><a href="#">Profile</a></li>
+                    <li><a href="#">My account</a></li>
+                    <li><a href="#">Prefrences</a></li>
+                    <li><a href="#">Purchase</a></li>
+                </ul>
+
+                <ul class="box">
+                    <li class="link_name">KYLE Devops</li>
+                    <li><a href="#">HTML & CSS</a></li>
+                    <li><a href="#">JavaScript</a></li>
+                    <li><a href="#">Photography</a></li>
+                    <li><a href="#">Photoshop</a></li>
+                </ul>
+
+                <ul class="box input-box">
+                    <li class="link_name">Subscribe</li>
+                    <li><input type="text" placeholder="Enter your email"></li>
+                    <li><input type="button" value="Subscribe"></li>
+                </ul>
+
+            </div>
+
+        </div>
+
+        <div class="bottom-details">
+
+            <div class="bottom_text">
+
+                <span class="copyright_text">Copyright © 2022 <a href="#">KYLE.inc.</a>All rights reserved</span>
+
+                <span class="policy_terms">
+                    <a href="#">Privacy policy</a>
+                    <a href="#">Terms & condition</a>
+                </span>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>

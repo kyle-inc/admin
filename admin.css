@@ -1,0 +1,409 @@
+::selection {
+    color: silver;
+    background: transparent;
+}
+
+img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"] {
+  display: none;
+}
+
+/* ------------------- Scroll Bar ------------------- */
+
+/* width */
+::-webkit-scrollbar {
+  width: 1.5vh;
+  background-color: black;
+}
+
+/* Track */
+::-webkit-scrollbar-track { 
+  /* border-radius: 10px; */
+  background-color: black;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: crimson; 
+  /* border-radius: 10px; */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: crimson; 
+}
+
+
+img {
+  transition: transform 0.9s ease-in-out;
+}
+
+.adminconsole-body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #18191A;
+    color: white;
+}
+
+div.adminconsole-logobar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    width: 100vw;
+    display: block;
+    background: white;
+    overflow: hidden;
+}
+
+img.adminconsole-logo {
+    max-width: 22vw;
+    min-width: 260px;
+    padding: 0.6vw 1vw;
+    float: left;
+}
+
+p.adminconsole-para1{
+    color: white;
+    font-size: 2.8vw;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 39.5vh 3vw;
+    margin-top: 3.5vw;
+    background-image: url("https://kyle-inc.github.io/resource/adminconsole/adminbackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+img.adminconsole-icon {
+    width: 7vw;
+    padding: 0.3vw 3vw;
+    float: left;
+}
+
+.adminconsole-icon:hover {
+  transform: rotate(720deg);
+}
+
+
+
+form {
+    height: 50vh;
+    width: 70vw;
+    /* background-color: #FBAB7E; */
+    /* background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%); */
+    border-radius: 10px;
+    padding: 50px 35px;
+    scroll-snap-stop: always;
+}
+
+form * {
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+}
+
+form h3 {
+    font-size: 4vh;
+    font-weight: 500;
+    text-align: center;
+    padding: 5vw 0vw;
+    color: #A0A1B2;
+}
+
+label {
+    display: block;
+    margin-top: 30px;
+    font-size: 3vh;
+    padding: 1vw 0vw;
+    font-weight: 500;
+    float: left;
+    color: #f0f0f0;
+}
+
+input {
+    display: block;
+    height: 5.5vh;
+    width: 100%;
+    background-color: transparent;
+    border-radius: 3px;
+    padding: 0 1vh;
+    margin-top: 8px;
+    font-size: 15px;
+    font-weight: 300;
+    box-sizing: border-box;
+    color: white;
+    border-radius: 5px;
+    /* border: 2px solid #4f30ab; */
+    border: 2px solid green;
+}
+
+::placeholder {
+  color: silver;
+}
+
+.loginbutton {
+    display: block;
+    height: 50px;
+    width: 100%;
+    /* background-color: #FB542B; */
+    background-color: white;
+    margin-top: 8px;
+    font-size: 2.5vh;
+    /* color: white; */
+    color: black;
+    margin-top: 10vh;
+    border: 2px solid transparent;
+}
+
+button {
+    margin-top: 50px;
+    width: 100%;
+    background-color: #FB542B;
+    color: white;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+
+
+
+
+
+
+
+/* footer */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+footer{
+  background: #121212;
+  width: 100%;
+}
+footer::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 100px;
+  height: 1px;
+  width: 100%;
+}
+footer .content{
+  max-width: 1250px;
+  margin: auto;
+  padding: 30px 40px 40px 40px;
+}
+footer .content .top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.content .top .logo-details{
+  color: #fff;
+  font-size: 30px;
+}
+.content .top .media-icons{
+  display: flex;
+}
+.content .top .media-icons a{
+  height: 40px;
+  width: 40px;
+  margin: 0 8px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  color: #fff;
+  font-size: 17px;
+  text-decoration: none;
+  transition: all 0.4s ease;
+}
+.top .media-icons a:nth-child(1){
+  background: #4267B2;
+}
+.top .media-icons a:nth-child(1):hover{
+  color: #4267B2;
+  background: #fff;
+}
+.top .media-icons a:nth-child(2){
+  background: #1DA1F2;
+}
+.top .media-icons a:nth-child(2):hover{
+  color: #1DA1F2;
+  background: #fff;
+}
+.top .media-icons a:nth-child(3){
+  background: #E1306C;
+}
+.top .media-icons a:nth-child(3):hover{
+  color: #E1306C;
+  background: #fff;
+}
+.top .media-icons a:nth-child(4){
+  background: #0077B5;
+}
+.top .media-icons a:nth-child(4):hover{
+  color: #0077B5;
+  background: #fff;
+}
+.top .media-icons a:nth-child(5){
+  background: #FF0000;
+}
+.top .media-icons a:nth-child(5):hover{
+  color: #FF0000;
+  background: #fff;
+}
+footer .content .link-boxes{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+footer .content .link-boxes .box{
+  width: calc(100% / 5 - 10px);
+}
+.content .link-boxes .box .link_name{
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  position: relative;
+}
+.link-boxes .box .link_name::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  height: 2px;
+  width: 35px;
+  background: #fff;
+}
+.content .link-boxes .box li{
+  margin: 6px 0;
+  list-style: none;
+}
+.content .link-boxes .box li a{
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+  opacity: 0.8;
+  transition: all 0.4s ease
+}
+.content .link-boxes .box li a:hover{
+  opacity: 1;
+  text-decoration: underline;
+}
+.content .link-boxes .input-box{
+  margin-right: 55px;
+}
+.link-boxes .input-box input{
+  height: 40px;
+  width: calc(100% + 55px);
+  outline: none;
+  border: 2px solid #AFAFB6;
+  background: transparent;
+  border-radius: 4px;
+  padding: 0 15px;
+  font-size: 15px;
+  color: #fff;
+  margin-top: 5px;
+}
+.link-boxes .input-box input::placeholder{
+  color: #AFAFB6;
+  font-size: 16px;
+}
+.link-boxes .input-box input[type="button"]{
+  background: #fff;
+  color: #140B5C;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 4px 0;
+  opacity: 0.8;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+.input-box input[type="button"]:hover{
+  opacity: 1;
+}
+footer .bottom-details{
+  width: 100%;
+  background: #121212;
+}
+footer .bottom-details .bottom_text{
+  max-width: 1250px;
+  margin: auto;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #121212;
+}
+.bottom-details .bottom_text span,
+.bottom-details .bottom_text a{
+  font-size: 14px;
+  font-weight: 300;
+  color: #fff;
+  opacity: 0.8;
+  text-decoration: none;
+}
+.bottom-details .bottom_text a:hover{
+  opacity: 1;
+  text-decoration: underline;
+}
+.bottom-details .bottom_text a{
+  margin-right: 10px;
+}
+@media (max-width: 900px) {
+  footer .content .link-boxes{
+    flex-wrap: wrap;
+  }
+  footer .content .link-boxes .input-box{
+    width: 40%;
+    margin-top: 10px;
+  }
+}
+@media (max-width: 700px){
+  footer{
+    position: relative;
+  }
+  .content .top .logo-details{
+    font-size: 26px;
+  }
+  .content .top .media-icons a{
+    height: 35px;
+    width: 35px;
+    font-size: 14px;
+    line-height: 35px;
+  }
+  footer .content .link-boxes .box{
+    width: calc(100% / 3 - 10px);
+  }
+  footer .content .link-boxes .input-box{
+    width: 60%;
+  }
+  .bottom-details .bottom_text span,
+  .bottom-details .bottom_text a{
+    font-size: 12px;
+  }
+}
+@media (max-width: 520px){
+  footer::before{
+    top: 145px;
+  }
+  footer .content .top{
+    flex-direction: column;
+  }
+  .content .top .media-icons{
+    margin-top: 16px;
+  }
+  footer .content .link-boxes .box{
+    width: calc(100% / 2 - 10px);
+  }
+  footer .content .link-boxes .input-box{
+    width: 100%;
+  }
+}
