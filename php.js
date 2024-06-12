@@ -5,7 +5,7 @@ function checkPswd() {
         window.location = "admin.php";
     }
     else {
-        window.location = "action_page.html";
+        window.location = "https://kyle-inc.github.io/admin/action_page";
         alert("Admin ID or Password is incorrect or mightbe empty");
     }
 }
