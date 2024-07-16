@@ -52,44 +52,39 @@
 
     <div class="adminconsole-logobar">
         <a href="https://kyle-inc.github.io/admin/console">
-            <!-- <center> -->
-            <!-- <img class="kyledevopslogo" id="kylelogoid" src="kyledevopslogoblack.png" alt="kylelogo">
-                <img class="kylelogo" id="kylelogoid" src="kylelogoblack.png" alt="kylelogo"> -->
-            <img class="adminconsole-logo" id="kylelogoid" src="https://kyle-inc.github.io/resource/adminconsole/adminconsolelogo.png" alt="kylelogo">
-            <!-- </center> -->
+            <img class="adminconsole-logo" id="kylelogoid"
+                src="https://kyle-inc.github.io/resource/adminconsole/admin-console-logo-white.png" alt="kylelogo">
         </a>
     </div>
 
     <p class="adminconsole-para1">
-        <img class="adminconsole-icon" id="kylelogoid" src="https://kyle-inc.github.io/resource/adminconsole/adminicon.png" alt="kylelogo">
+        <img class="adminconsole-icon" id="kylelogoid"
+            src="https://kyle-inc.github.io/resource/adminconsole/adminicon.png" alt="kylelogo">
         <font style="color: cadetblue; background-color: black;">This is KYLE Admin Console_</font>
         <br>
-        <font style="color: black; background-color: slategray;">A central location for managing KYLE entitlements.</font>
+        <font style="color: black; background-color: slategray;">A central location for managing KYLE entitlements.
+        </font>
     </p>
 
+    <form>
+        <!-- action="action_page.html" -->
 
-    <center>
+        <h3 class="h3loginform">Login to KYLE Admin Console</h3>
 
-        <form>
-            <!-- action="action_page.html" -->
+        <label for="username">Admin ID</label>
+        <input type="text" name="email" placeholder="Enter Admin ID" id="username" required>
 
-            <h3 class="h3loginform">Login to KYLE Admin Console</h3>
+        <label for="password">Password</label>
+        <input type="password" name="password" placeholder="Enter Password" id="pswd" required>
 
-            <label for="username">Admin ID</label>
-            <input type="text" name="email" placeholder="Enter Admin ID" id="username" required>
+        <!-- <input class="loginbutton" type="submit" value="Login"> -->
 
-            <label for="password">Password</label>
-            <input type="password" name="password" placeholder="Enter Password" id="pswd" required>
+        <!-- <input class="loginbutton" type="button" value="Login" onclick="checkPswd();" /> -->
 
-            <!-- <input class="loginbutton" type="submit" value="Login"> -->
+        <button class="loginbutton" onclick="checkPswd();">Login</button>
 
-            <!-- <input class="loginbutton" type="button" value="Login" onclick="checkPswd();" /> -->
+    </form>
 
-            <button class="loginbutton" onclick="checkPswd();">Login</button>
-
-        </form>
-        
-    </center>
 
     <footer style="margin-top: 45vh;">
 
@@ -103,7 +98,7 @@
                             style="width: 8vw; min-width: 100px; padding: 5px 5px;" alt="">
                     </a>
                 </div>
-                
+
                 <div class="media-icons">
                     <a href="#"><i class="fab fa-facebook-f"></i></a>
                     <a href="#"><i class="fab fa-twitter"></i></a>

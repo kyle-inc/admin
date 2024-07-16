@@ -53,7 +53,7 @@ div.adminconsole-logobar {
   right: 0px;
   width: 100vw;
   display: block;
-  background: white;
+  background: black;
   overflow: hidden;
 }
 
@@ -88,10 +88,14 @@ img.adminconsole-icon {
 
 
 form {
-  height: 50vh;
-  width: 70vw;
-  /* background-color: #FBAB7E; */
-  /* background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%); */
+  width: 55vw;
+  min-width: 305px;
+  margin-left: 4vw;
+  margin-top: 15vh;
+  /* background-color: slategray; */
+  background-image: url(https://kyle-inc.github.io/resource/wallpaper/artwork-7141130_1280.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
   border-radius: 10px;
   padding: 50px 35px;
   scroll-snap-stop: always;
@@ -109,8 +113,9 @@ form h3 {
   font-size: 4vh;
   font-weight: 500;
   text-align: center;
-  padding: 5vw 0vw;
-  color: #A0A1B2;
+  padding: 1vw 0vw;
+  /* color: #A0A1B2; */
+  color: black;
 }
 
 label {
@@ -120,7 +125,8 @@ label {
   padding: 1vw 0vw;
   font-weight: 500;
   float: left;
-  color: #f0f0f0;
+  /* color: #f0f0f0; */
+  color: darkslateblue;
 }
 
 input {
@@ -134,14 +140,14 @@ input {
   font-size: 15px;
   font-weight: 300;
   box-sizing: border-box;
-  color: white;
+  color: darkblue;
   border-radius: 5px;
   /* border: 2px solid #4f30ab; */
-  border: 2px solid green;
+  border: 2px solid darkslateblue;
 }
 
 ::placeholder {
-  color: silver;
+  color: black;
 }
 
 .loginbutton {
