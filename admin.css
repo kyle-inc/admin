@@ -1,6 +1,6 @@
 ::selection {
-    color: silver;
-    background: transparent;
+  color: silver;
+  background: transparent;
 }
 
 img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"] {
@@ -16,20 +16,20 @@ img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost
 }
 
 /* Track */
-::-webkit-scrollbar-track { 
+::-webkit-scrollbar-track {
   /* border-radius: 10px; */
   background-color: black;
 }
- 
+
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: crimson; 
+  background: crimson;
   /* border-radius: 10px; */
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: crimson; 
+  background: crimson;
 }
 
 
@@ -38,47 +38,47 @@ img {
 }
 
 .adminconsole-body {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    font-family: 'Ubuntu', sans-serif;
-    background-color: #18191A;
-    color: white;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #18191A;
+  color: white;
 }
 
 div.adminconsole-logobar {
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    width: 100vw;
-    display: block;
-    background: white;
-    overflow: hidden;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  width: 100vw;
+  display: block;
+  background: white;
+  overflow: hidden;
 }
 
 img.adminconsole-logo {
-    max-width: 22vw;
-    min-width: 260px;
-    padding: 0.6vw 1vw;
-    float: left;
+  max-width: 22vw;
+  min-width: 260px;
+  padding: 0.6vw 1vw;
+  float: left;
 }
 
-p.adminconsole-para1{
-    color: white;
-    font-size: 2.8vw;
-    font-family: 'Ubuntu', sans-serif;
-    padding: 39.5vh 3vw;
-    margin-top: 3.5vw;
-    background-image: url("https://kyle-inc.github.io/resource/adminconsole/adminbackground.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+p.adminconsole-para1 {
+  color: white;
+  font-size: 2.8vw;
+  font-family: 'Ubuntu', sans-serif;
+  padding: 39.5vh 3vw;
+  margin-top: 3.5vw;
+  background-image: url("https://kyle-inc.github.io/resource/adminconsole/adminbackground.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 img.adminconsole-icon {
-    width: 7vw;
-    padding: 0.3vw 3vw;
-    float: left;
+  width: 7vw;
+  padding: 0.3vw 3vw;
+  float: left;
 }
 
 .adminconsole-icon:hover {
@@ -88,56 +88,56 @@ img.adminconsole-icon {
 
 
 form {
-    height: 50vh;
-    width: 70vw;
-    /* background-color: #FBAB7E; */
-    /* background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%); */
-    border-radius: 10px;
-    padding: 50px 35px;
-    scroll-snap-stop: always;
+  height: 50vh;
+  width: 70vw;
+  /* background-color: #FBAB7E; */
+  /* background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%); */
+  border-radius: 10px;
+  padding: 50px 35px;
+  scroll-snap-stop: always;
 }
 
 form * {
-    font-family: 'Ubuntu', sans-serif;
-    color: white;
-    letter-spacing: 0.5px;
-    outline: none;
-    border: none;
+  font-family: 'Ubuntu', sans-serif;
+  color: white;
+  letter-spacing: 0.5px;
+  outline: none;
+  border: none;
 }
 
 form h3 {
-    font-size: 4vh;
-    font-weight: 500;
-    text-align: center;
-    padding: 5vw 0vw;
-    color: #A0A1B2;
+  font-size: 4vh;
+  font-weight: 500;
+  text-align: center;
+  padding: 5vw 0vw;
+  color: #A0A1B2;
 }
 
 label {
-    display: block;
-    margin-top: 30px;
-    font-size: 3vh;
-    padding: 1vw 0vw;
-    font-weight: 500;
-    float: left;
-    color: #f0f0f0;
+  display: block;
+  margin-top: 30px;
+  font-size: 3vh;
+  padding: 1vw 0vw;
+  font-weight: 500;
+  float: left;
+  color: #f0f0f0;
 }
 
 input {
-    display: block;
-    height: 5.5vh;
-    width: 100%;
-    background-color: transparent;
-    border-radius: 3px;
-    padding: 0 1vh;
-    margin-top: 8px;
-    font-size: 15px;
-    font-weight: 300;
-    box-sizing: border-box;
-    color: white;
-    border-radius: 5px;
-    /* border: 2px solid #4f30ab; */
-    border: 2px solid green;
+  display: block;
+  height: 5.5vh;
+  width: 100%;
+  background-color: transparent;
+  border-radius: 3px;
+  padding: 0 1vh;
+  margin-top: 8px;
+  font-size: 15px;
+  font-weight: 300;
+  box-sizing: border-box;
+  color: white;
+  border-radius: 5px;
+  /* border: 2px solid #4f30ab; */
+  border: 2px solid green;
 }
 
 ::placeholder {
@@ -145,29 +145,28 @@ input {
 }
 
 .loginbutton {
-    display: block;
-    height: 50px;
-    width: 100%;
-    /* background-color: #FB542B; */
-    background-color: white;
-    margin-top: 8px;
-    font-size: 2.5vh;
-    /* color: white; */
-    color: black;
-    margin-top: 10vh;
-    border: 2px solid transparent;
+  display: block;
+  height: 50px;
+  width: 100%;
+  /* background-color: #FB542B; */
+  background-color: white;
+  margin-top: 8px;
+  font-size: 2.5vh;
+  /* color: white; */
+  color: black;
+  margin-top: 10vh;
+  border: 2px solid transparent;
 }
 
 button {
-    margin-top: 50px;
-    width: 100%;
-    background-color: #FB542B;
-    color: white;
-    padding: 15px 0;
-    font-size: 18px;
-    font-weight: 600;
-    border-radius: 5px;
-    cursor: pointer;
-    border: 2px solid transparent;
+  margin-top: 50px;
+  width: 100%;
+  background-color: #FB542B;
+  color: white;
+  padding: 15px 0;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 2px solid transparent;
 }
-
