@@ -3,10 +3,6 @@
   background: transparent;
 }
 
-img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"] {
-  display: none;
-}
-
 /* ------------------- Scroll Bar ------------------- */
 
 /* width */
@@ -61,8 +57,13 @@ img.adminconsole-logo {
   max-width: 22vw;
   min-width: 260px;
   padding: 0.6vw 1vw;
-  float: left;
+  /* float: left; */
+  left: 0;
 }
+
+
+
+
 
 p.adminconsole-para1 {
   color: white;
@@ -87,18 +88,22 @@ img.adminconsole-icon {
 
 
 
+
+
 form {
-  width: 55vw;
+  width: 70vw;
   min-width: 305px;
-  margin-left: 4vw;
-  margin-top: 15vh;
+  /* margin-left: 4vw; */
+  margin-top: 10vh;
   /* background-color: slategray; */
-  background-image: url(https://kyle-inc.github.io/resource/wallpaper/artwork-7141130_1280.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #5de6de;
+  background-image: linear-gradient(315deg, #5de6de 0%, #b58ecc 74%);
   border-radius: 10px;
   padding: 50px 35px;
   scroll-snap-stop: always;
+  /* display: inline-block; */
+  margin-left: auto;
+  margin-right: auto;
 }
 
 form * {
@@ -152,12 +157,11 @@ input {
 
 .loginbutton {
   display: block;
-  height: 50px;
   width: 100%;
   /* background-color: #FB542B; */
   background-color: white;
   margin-top: 8px;
-  font-size: 2.5vh;
+  font-size: 20px;
   /* color: white; */
   color: black;
   margin-top: 10vh;
