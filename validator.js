@@ -4,7 +4,7 @@ function checkPswd() {
     var confirmEmail = "86187229927842";
     var email = document.getElementById("username").value;
     if (password == confirmPassword & email == confirmEmail) {
-        window.location = "admin.php";
+        window.location = "https://kyle-inc.github.io/shell";
     }
 }
 
