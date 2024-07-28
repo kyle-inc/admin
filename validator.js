@@ -1,9 +1,12 @@
 function checkPswd() {
-    var confirmPassword = "adminconsole4kyle_gainaccess";
+    var confirmPassword = "86187229927842";
     var password = document.getElementById("pswd").value;
-    var confirmAdminId = "86187229927842";
-    var AdminId = document.getElementById("username").value;
-    if (password == confirmPassword&AdminId == confirmAdminId) {
+    var confirmEmail = "admin@kyle.com";
+    var email = document.getElementById("username").value;
+    if (password == confirmPassword) {
+        window.location = "admin.php";
+    }
+    if (email == confirmEmail) {
         window.location = "admin.php";
     }
     else {
