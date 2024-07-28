@@ -6,10 +6,6 @@ function checkPswd() {
     if (password == confirmPassword & email == confirmEmail) {
         window.location = "admin.php";
     }
-    else {
-        // window.location = "https://kyle-inc.github.io/admin/action_page"; (It dont give that ?= url)
-        // alert("Admin ID or Password is incorrect or mightbe empty");
-    }
 }
 
 
