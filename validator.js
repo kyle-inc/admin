@@ -1,10 +1,13 @@
 function checkPswd() {
     var confirmPassword = "adminconsole4kyle_gainaccess";
     var password = document.getElementById("pswd").value;
-    if (password == confirmPassword) {
+    var confirmAdminId = "86187229927842";
+    var AdminId = document.getElementById("username").value;
+    if (password == confirmPassword&AdminId == confirmAdminId) {
         window.location = "admin.php";
     }
     else {
+        // window.location = "https://kyle-inc.github.io/admin/action_page";
         alert("Admin ID or Password is incorrect or mightbe empty");
     }
 }
