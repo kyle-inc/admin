@@ -1,5 +1,5 @@
 function checkPswd() {
-    var confirmPassword = "adminconsole@kyle_gainaccess";
+    var confirmPassword = "adminconsole4kyle_gainaccess";
     var password = document.getElementById("pswd").value;
     if (password == confirmPassword) {
         window.location = "admin.php";
