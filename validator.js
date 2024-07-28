@@ -3,10 +3,7 @@ function checkPswd() {
     var password = document.getElementById("pswd").value;
     var confirmEmail = "86187229927842";
     var email = document.getElementById("username").value;
-    if (password == confirmPassword) {
-        window.location = "admin.php";
-    }
-    if (email == confirmEmail) {
+    if (password == confirmPassword & email == confirmEmail) {
         window.location = "admin.php";
     }
     else {
