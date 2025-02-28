@@ -9,9 +9,93 @@
 
 <url>
   <loc>https://kyle-inc.github.io/admin/</loc>
+  <lastmod>2025-02-28T12:18:36+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://kyle-inc.github.io/kyle/</loc>
+  <lastmod>2025-02-28T13:16:14+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://kyle-inc.github.io/admin/console</loc>
+  <lastmod>2025-02-28T12:18:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://kyle-inc.github.io/kyle/index.html</loc>
+  <lastmod>2025-02-28T13:16:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://kyle-inc.github.io/devops/</loc>
+  <lastmod>2025-02-28T13:15:43+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://kyle-inc.github.io/kyle/terms.html</loc>
+  <lastmod>2025-02-28T13:16:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://kyle-inc.github.io/apps/</loc>
+  <lastmod>2024-07-13T13:12:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://kyle-inc.github.io/accounts/</loc>
+  <lastmod>2024-11-07T18:01:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://kyle-inc.github.io/kyle/terms</loc>
+  <lastmod>2025-02-28T13:16:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://kyle-inc.github.io/devops/response</loc>
+  <lastmod>2025-02-28T13:15:43+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://kyle-inc.github.io/search/</loc>
+  <lastmod>2025-02-28T13:15:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://kyle-inc.github.io/todo/</loc>
+  <lastmod>2024-07-13T13:23:32+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://kyle-inc.github.io/notes/</loc>
+  <lastmod>2024-07-13T13:11:44+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://kyle-inc.github.io/kyle/Terms%20and%20Conditions.pdf</loc>
+  <lastmod>2025-02-28T13:16:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://kyle-inc.github.io/kyle/Snapshot%20Terms%20and%20Conditions.pdf</loc>
+  <lastmod>2025-02-28T13:16:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://kyle-inc.github.io/search/google</loc>
+  <lastmod>2025-02-28T13:15:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://kyle-inc.github.io/search/bing</loc>
+  <lastmod>2025-02-28T13:15:57+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://kyle-inc.github.io/search/brave</loc>
+  <lastmod>2025-02-28T13:15:57+00:00</lastmod>
+  <priority>0.41</priority>
 </url>
 
 
